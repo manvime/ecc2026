@@ -1,12 +1,12 @@
 # Livro ECC 2026
 
-Flipbook com as 35 páginas do PDF enviado, na ordem original. Exibe a capa original e as folhas com efeito de virar páginas, sem títulos ou capas adicionais. A senha de leitura foi entregue separadamente na conversa.
+Flipbook com as 41 páginas do PDF enviado, na ordem original. Exibe a capa original e as folhas com efeito de virar páginas, sem títulos ou capas adicionais. A senha de leitura foi entregue separadamente na conversa.
 
 ## Como publicar
 
 1. Extraia o ZIP. Envie os arquivos extraídos, não o próprio ZIP.
-2. No repositório **manvime/Ecc-2026**, abra **Add file → Upload files**.
-3. Envie `index.html`, `livro-pdf.enc`, `README.md` e `LICENCA_StPageFlip.txt` diretamente para a raiz do repositório. Se aparecer, envie também `.nojekyll` (opcional neste site HTML pronto).
+2. No repositório **manvime/ecc2026**, abra **Add file → Upload files**.
+3. Envie `index.html`, `livro-pdf.enc`, `README.md` e `LICENCA_StPageFlip.txt` diretamente para a raiz do repositório, substituindo os arquivos de mesmo nome. Atualize `index.html` e `livro-pdf.enc` juntos no mesmo commit. Se aparecer, envie também `.nojekyll` (opcional neste site HTML pronto).
 4. Salve com **Commit changes** na branch `main`.
 5. Abra **Settings → Pages**. Escolha **Deploy from a branch**, branch **main** e pasta **/(root)**. Clique em **Save**.
 6. Aguarde a publicação e abra o endereço indicado em **Visit site**. Esse é o endereço para compartilhar e usar em um QR code.
@@ -15,13 +15,11 @@ Se usar o plano GitHub Free, o repositório precisa ser público para publicar p
 
 Cada arquivo deste pacote fica abaixo do limite de 25 MiB para envio pelo navegador. No celular, pode ser necessário ativar a versão para computador do site do GitHub para encontrar as opções.
 
-Observação sobre o arquivo recebido: as páginas 32 e 33 aparecem apenas com o cabeçalho no PDF original. Essa aparência foi preservada no flipbook.
-
 ## Uso
 
 - Abra o site publicado por HTTPS e digite a senha informada na conversa.
 - Vire as folhas pelas setas ou deslizando o dedo. No computador, também funcionam as setas do teclado.
-- A lupa amplia a página; o seletor da lupa permite escolher qualquer uma das 35 páginas.
+- A lupa amplia a página; o seletor da lupa permite escolher qualquer uma das 41 páginas.
 - O botão de download fornece o PDF original após desbloquear o livro. O PDF só é transferido quando solicitado.
 - O cadeado fecha o livro. Recarregar a página pede a senha novamente.
 
